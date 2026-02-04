@@ -25,7 +25,5 @@ docker run -it --rm cmatrix-alpine -s 5 -C blue
 Images are built and pushed to GitHub Container Registry via GitHub Actions. Pull with:
 
 ```bash
-docker pull ghcr.io/<owner>/cmatrix-alpine:latest
+docker pull ghcr.io/skitzo2000/cmatrix-alpine:latest
 ```
-
-Replace `<owner>` with your GitHub username or organization.
